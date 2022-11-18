@@ -7,7 +7,7 @@ header {
         top: 0px;
         background: #FFFFFF;
 }
-#link-logo {
+.link-logo {
    all: unset;
     position: absolute;
         width: 145px;
@@ -23,66 +23,62 @@ header {
         letter-spacing: 0.03em; 
         color: #2196F3;
 }
-#webstudio span {
+span {
 color: black;
 }
-ul {
-    list-style: none;
+.link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 #studio {
-        width: 45px;
-        height: 16px;
-        left: 453px;
-        top: 32px;
+    position: absolute;
+    width: 45px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
 }
 #portfolio {
-        width: 72px;
-        height: 16px;
-        left: 548px;
-        top: 32px;
+    position: absolute;
+    width: 72px;
+    height: 16px;
+    left: 548px;
+    top: 32px;
 }
-#contact {
-        width: 64px;
-        height: 16px;
-        left: 670px;
-        top: 32px;
+#contacts {
+    position: absolute;
+    width: 64px;
+    height: 16px;
+    left: 670px;
+    top: 32px;
 }
-#email {
+#mail {
+    position: absolute;
     width: 135px;
     height: 16px;
     left: 1078px;
     top: 32px;
 }
 #number {
+    position: absolute;
     width: 122px;
     height: 16px;
     left: 1263px;
     top: 32px;
 }
-.menu{
-        position: absolute;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.02em;
-        color: #212121;
-}
-#first {
-    position: absolute;
+.hero {
     width: 1600px;
     height: 600px;
     left: 0px;
     top: 80px;
     background: #2F303A;
 }
-h1 {
+.hero-heading {
     position: absolute;
-    width: 696px;
-    height: 120px;
-    left: 452px;
-    top: 280px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
@@ -93,18 +89,48 @@ h1 {
     text-transform: uppercase;
     color: #FFFFFF;
 }
-button {
+#title {
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+.hero-btn {
     position: absolute;
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
-        background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+#click {
+    position: absolute;
+        width: 152px;
+        height: 30px;
+        left: 724px;
+        top: 440px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 15px;
+        /* identical to box height, or 188% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
         color: #FFFFFF;
 }
-.second {
+.visually-hidden {
+    position: absolute;
+    width: 1170px;
+    height: 98px;
+    left: 215px;
+    top: 774px;
+}
+.points {
     position: absolute;
     font-family: 'Roboto';
     font-style: normal;
@@ -139,7 +165,7 @@ button {
     left: 1115px;
     top: 774px;
 }
-.one {
+.description {
     position: absolute;
     font-family: 'Roboto';
     font-style: normal;
@@ -174,7 +200,13 @@ button {
     left: 1115px;
     top: 800px;
 }
-#chim {
+.deeds-to-do {
+    width: 1170px;
+    height: 386px;
+    left: 215px;
+    top: 966px;
+}
+#our-job-heading {
     position: absolute;
         width: 366px;
         height: 42px;
@@ -210,13 +242,19 @@ button {
         left: 1015px;
         top: 1058px;
 }
-.free {
+.our-team {
 position: absolute;
     width: 1600px;
     height: 648px;
     left: 0px;
     top: 1446px;
     background: #F5F4FA;
+}
+.our-team-heading {
+    width: 1170px;
+    height: 368px;
+    left: 215px;
+    top: 1632px;
 }
 #team {
     width: 264px;
@@ -232,71 +270,168 @@ position: absolute;
     letter-spacing: 0.03em;
     color: #212121;
 }
-#foure {
+.our-team-wolker {
+    position: absolute;
     width: 270px;
     height: 368px;
-    left: 215px;
     top: 1632px;
-    text-align: center;
     background: #FFFFFF;
     /* material shadow v1 */
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 #image4 {
+    position: absolute;
     width: 270px;
         height: 260px;
         left: 215px;
         top: 1632px;
 }
-#five {
-    width: 270px;
-    height: 368px;
-    left: 515px;
-    top: 1632px;
-    text-align: center;
-    background: #FFFFFF;
-    /* material shadow v1 */
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
 #image5 {
+    position: absolute;
     width: 270px;
         height: 260px;
         left: 515px;
         top: 1632px;
 }
-.six {
-        width: 270px;
-        height: 368px;
-        left: 815px;
-        top: 1632px;
-        text-align: center;
-        background: #FFFFFF;
-        /* material shadow v1 */
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-}
 #image6 {
+    position: absolute;
     width: 270px;
         height: 260px;
         left: 815px;
         top: 1632px;
 }
-.seven {
-    width: 270px;
-    height: 368px;
-    left: 1115px;
-    top: 1632px;
-    text-align: center;
-    background: #FFFFFF;
-    /* material shadow v1 */
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    border-radius: 0px 0px 4px 4px;
-}
 #image7 {
+    position: absolute;
         width: 270px;
         height: 260px;
         left: 1115px;
         top: 1632px;
+}
+.wolkers {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+#igor {
+    width: 129px;
+    height: 19px;
+    left: 286px;
+    top: 1922px;
+}
+#olga {
+    width: 104px;
+    height: 19px;
+    left: 598px;
+    top: 1922px;
+}
+#mike {
+    width: 130px;
+    height: 19px;
+    left: 885px;
+    top: 1922px;
+}
+#michal {
+    width: 145px;
+    height: 19px;
+    left: 1178px;
+    top: 1922px;
+}
+.position {
+    position: absolute;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+#product {
+    width: 130px;
+        height: 19px;
+        left: 285px;
+        top: 1951px;
+}
+#developer {
+    width: 147px;
+        height: 19px;
+        left: 577px;
+        top: 1951px;
+}
+#marketing {
+    width: 76px;
+        height: 19px;
+        left: 912px;
+        top: 1951px;
+}
+#ul {
+    width: 87px;
+        height: 19px;
+        left: 1207px;
+        top: 1951px;
+}
+.page-bottom {
+    position: absolute;
+        width: 1600px;
+        height: 252px;
+        left: 0px;
+        top: 2094px;
+        background: #2F303A;
+}
+.link-logo-bottom {
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 2154px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        /* identical to box height */
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.web-world {
+    color: #2196F3;
+}
+.contacts {
+        width: 231px;
+        height: 81px;
+        left: 215px;
+        top: 2205px;
+}
+.location {
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        top: 2205px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.link-bottom {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        /* or 171% */
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
 }
