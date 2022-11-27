@@ -2,7 +2,7 @@ header {
     display: flex;
     text-indent: 100px;
     flex-direction: row;
-    justify-content: flex;
+    justify-content: space-between;
     align-items: center;
     background: #FFFFFF;
 }
@@ -38,17 +38,11 @@ color: #2196F3;
     display: flex;
      padding-left: 0;
  }
- p {
-     text-align: center;
- }
  h2 {
     text-align: center;
  }
  h3 {
     text-align: center;
-}
-img {
-   
 }
 .hero {
     background: #2F303A;
@@ -68,37 +62,54 @@ img {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    display: block;
+    margin: auto;
+    color: #FFFFFF;
 }
 .visually-hidden {
 }
 .points {
+    text-align: left;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #212121;
 }
 .description {
+    text-align: left;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.05em;
     color: #757575;
 }
 .deeds-to-do {
-}
+    text-align: center;
+    justify-content: space-evenly;
+} 
 .our-team {
     background: #F5F4FA;
 }
 .our-team-heading {
     text-align: center;
+    color: #000000;
 }
 .our-team-wolker {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+    margin: 0;
+    object-fit: scale-down;
+    object-position: right top;
+    list-style: none;
+    border-radius: 4px;
+    justify-content: space-evenly;
     background: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -124,17 +135,22 @@ img {
     color: #757575;
 }
 .page-bottom {
-        background: #2F303A;
+    display: flex;
+    text-align: left;
+    text-indent: 100px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: #2F303A;
 }
 .link-logo-bottom {
-        text-decoration: none;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 .web-world {
     color: #2196F3;
@@ -142,22 +158,24 @@ img {
 .contacts {
 }
 .location {
-        text-decoration: none;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 .link-bottom {
-        text-decoration: none;
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    text-align: left;
+    white-space: pre-wrap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
